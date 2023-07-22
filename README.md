@@ -5,7 +5,7 @@ This is a test application developed for a job interview. The application reads 
 ## Setup
 
 1. Clone the repository: `git clone https://github.com/bhccomp/dev-test.git`
-2. Navigate to the project directory: `cd repository`
+2. Navigate to the project directory: `cd dev-test`
 3. Install dependencies: `composer install`
 4. Copy the `.env.example` file to create your own `.env` file: `cp .env.example .env`
 5. Generate an application key: `php artisan key:generate`
