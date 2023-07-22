@@ -13,6 +13,10 @@ class AffiliateService
      */
     public function getAffiliates(): array
     {
+        if (!Storage::exists('affiliates.txt')) {
+            throw new \Exception('Affiliates file not found.');
+        }
+
         $contents = Storage::get('affiliates.txt');
         $lines = explode("\n", $contents);
 
