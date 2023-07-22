@@ -19,8 +19,6 @@ Visit `http://localhost:8000/affiliates` in your web browser to see the list of 
 
 Run the tests with the following command: `php artisan test`
 
-## Note about .env file
-
 ## License
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
